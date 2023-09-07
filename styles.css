@@ -1,0 +1,47 @@
+#cameraLogo{
+    color:white;
+    padding-right:5px;
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.TestCards{
+    margin: 0 .5em;
+    width: calc(100%/3);
+}
+
+@media (max-width:576px){
+    #AboutMeSmall{
+        justify-content:center;
+    }
+}
+
+@media (max-width:576px){
+    #PortNav > div > li > a{
+        height:100px;
+    }
+}
+
+@media (max-width:576px){
+    .HalfScreen{
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+
+    }
+}
+@media (min-width:577px) {
+    .HalfScreen {
+        margin-left: 25%;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
